@@ -4,12 +4,12 @@ Using Python, Pandas functions and methods, and SQLAlchemy, we’ll filter the d
 
 # Results:
 Data Provided gave us a visibility that on months of June and December, our location had a total Temps of:
-* Statictics for June:
+* Statictics for JUNE temperature:
 
 ![Statistics for June](https://user-images.githubusercontent.com/100484606/168458369-0df46f21-91eb-4576-970d-e8f268af8efd.JPG)
 
 
-* Statictics for December:
+* Statictics for DECEMBER temperature:
 
 ![Statistics for December](https://user-images.githubusercontent.com/100484606/168458396-78a925c4-b155-4aad-9045-169114530369.JPG)
 
