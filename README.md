@@ -1,19 +1,23 @@
 # Overview:
 
-Using Python, Pandas functions and methods, and SQLAlchemy, we’ll filter the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June. We'll then convert those temperatures to a list, create a DataFrame from the list, and generate the summary statistics. Once our dataframe is created we are able to get our summary statistics by using the df.describe() code and method.
+This project is to analyze the weather data from Oahu, Hawaii to provide a temperature trends for a Surf and Ice-cream business, especially in June and December. The analysis will be used to determind whether the seasons could affect the surf and ice-cream business.
 
 # Results:
-Data Provided gave us a visibility that on months of June and December, our location had a total Temps of:
-* Statictics for JUNE temperature:
+Here are some factors for us to take into account when doing surfing and ice-cream business:
 
-![Statistics for June](https://user-images.githubusercontent.com/100484606/168458369-0df46f21-91eb-4576-970d-e8f268af8efd.JPG)
+![Statistics_All](https://user-images.githubusercontent.com/100484606/169628983-409efca7-81cb-47c0-885a-2398280bbcaf.JPG)
 
-
-* Statictics for DECEMBER temperature:
-
-![Statistics for December](https://user-images.githubusercontent.com/100484606/168458396-78a925c4-b155-4aad-9045-169114530369.JPG)
-
+* The average temperatures in June (74.9 F) and December (71.0 F) are good for opening an ice-cream business.
+* The lowest temperature in December is 56 F which means the weather is cool down and it might affect the business; therefore, some marketting or promotion strategies need to be taken into consideration for the low season.
+* The maximum rain probability in December is 6.4 mm which could be not a good time for travelling and therefore this factor should take into consideration as well.
+ 
 # Summary:
-Based on our Data Analysis, Data Provided, we can state as a high-level summary of results that Standard deviation is 3.25 in June and 3.75 in December, making a 0.5 difference between both seasons.
 
-In addition, current data provide attributes such precipitation and others, with two queries that our analysis pursue, performing weather data for June and December that helps results to decide how we would like to build the shop and what areas would make this location attractive to visitors to stop by and have a successful business.
+Here are two queries for retreiving data about precipitation in June and December:
+
+![Precipitation of June](https://user-images.githubusercontent.com/100484606/169628994-ee449485-fa6b-4df1-a750-829503e0ade8.JPG)
+
+![Precipitation of December](https://user-images.githubusercontent.com/100484606/169629002-25fc6055-cde5-42ac-a033-2914f019f211.JPG)
+
+It can be concluded that June is the best time of the year for running surfing and ice-cream business as the weather is very conveninent for travelling.
+
